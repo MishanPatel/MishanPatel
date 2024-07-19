@@ -18,6 +18,6 @@ function setup() {
 function mouseDragged() {
   
   let lineHue = mouseX - mouseY;
-  stroke( lineHue ,200, 200);
+  stroke( 0 ,lineHue, 200);
   line(pmouseX, pmouseY, mouseX, mouseY);
 }
